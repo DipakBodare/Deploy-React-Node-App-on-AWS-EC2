@@ -1,18 +1,34 @@
-# Deploy React + Node application on AWS EC2 instance
-This course is related to React and Node.js appplication deployment on AWS EC2 instance.
+# Install Node.js on ubuntu server
+
+Step 1: Update the sercer
+```
+sudo apt update
+```
+
+Step 2: install node.js with "apt" utility on ubuntu server
+```
+sudo apt install nodejs
+```
+# Install Specifice nodejs verison on ubuntu instance
+Step 1: Add PPA repository in ubuntu. we are going to install nodejs 18.xx version in this section.
+```
+curl -sL https://deb.nodesource.com/setup_18.x -o nodesource_setup.sh
+```
+Step 2: Run the Shell script that you have downdloaded in the above steps
+```
+sudo bash nodesource_setup.sh
+```
+Step 3: Run the nodejs install command
+```
+sudo apt install nodejs
+```
+Step 4: Check the Nodejs version
+```
+node -v
+```
 
 
-# Services Covered in this course
-1. AWS Compute Instance (EC2)
-2. AWS Relations Database Service (RDS)
-3. Node.js 
-4. React
-5. Nginx
-6. Mongodb
-7. Cerbot
 
-# Who will Purchase This course ?
-- Fresher who dont have knowledge of AWS 
-- Developers who want Learn how to deploy the Node.js Applicaiton on AWS EC2 instance
-- Who want to learn How to deploy the application Best security practises
+
+
 
