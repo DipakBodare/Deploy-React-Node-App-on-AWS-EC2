@@ -9,13 +9,13 @@
 
 # Features of GIT:
 
-
-# Basics command of GIT
-
-
 # Online repo used to store the code
 - Gitlab 
 - Github
+- bitbucket
+
+These are 3 online Source Code Management tools that we can use to store our applicatin code.
+
 
 
 
