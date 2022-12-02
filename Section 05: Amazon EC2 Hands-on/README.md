@@ -27,3 +27,16 @@ https://calculator.aws/#/
 7. You can use Amazon inspector to automatically discover and scan EC2 instances for software vulnerabilities and unintended network exposure.
 8. Setup different Port No. to login EC2 instance (By Default port is 22)
 10. If you setup database on the same machine then you can send the database backup every day to S3 Bucket (Use shell script to do this)
+11. preserve your volumes after instance termination
+12. Avoid provisioning instances in public subnets
+13. Use Instance Roles —Avoid injecting/placing access keys in your EC2 instances or AMIs
+14. Alert on high instance utilization
+15. Protect against EC2 instance termination
+16. 
+
+```
+https://towardsdatascience.com/best-practices-for-securing-aws-ec2-instances-4bd656e22462
+```
+```
+https://www.site24x7.com/learn/aws/aws-best-practices-ec2.html
+```
