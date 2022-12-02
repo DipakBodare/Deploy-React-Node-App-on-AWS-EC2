@@ -13,13 +13,11 @@
 # AWS Cost Calculator URL link:
   By using aws cost calculator, your can create monthly as well as anually cost of your application.
   You can download these report in .pdf or .csv format
+
 ```
 https://calculator.aws/#/
-``
-
-
+```
 # EC2 security best practices
-
 - Use only required inbound ports in security group.
 - Enable linux firewall if you use linux system (optional)
 - Enable EC2 AMI instance lifecycle policy (Take the AMI of server on daily or weekly basis)
