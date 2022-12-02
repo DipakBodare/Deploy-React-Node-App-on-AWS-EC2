@@ -63,7 +63,7 @@ sudo apt install npm
 - To start the pm2 process
   ```
   pm2 start 0
-  ``
+  ```
   Where 0 is the application id
 - To stop the pm2 process
   ```
