@@ -23,3 +23,22 @@ https://www.cloudflare.com/learning/ssl/what-is-ssl/
 - *Multidomain*: SSL certicate can apply upto multiple unrelated domains
 
 
+# Installation of SSL certificate
+
+Pre-requisites:
+1. Need root access of server
+
+Step 1: Installing snap 
+      ```
+      sudo snap install core; sudo snap refresh core
+      ```
+Step 2: Install classic certbot
+      ```
+      sudo snap install --classic certbot
+      ```
+Step 3: link certbot commands to snap directoy
+      ```
+      sudo ln -s /snap/bin/certbot /usr/bin/certbot
+      ```
+      
+        
