@@ -41,4 +41,29 @@ Pre-requisites:
   sudo ln -s /snap/bin/certbot /usr/bin/certbot
   ```
       
-        
+# Configure SSL certificate
+Pre-requisites:
+  - Map Domain name to Server IP address
+  - Record type should be A
+
+- Install ssl certificate
+```
+sudo certbot --nginx -d test.abc.com
+```
+- verify certbot auto-renewal
+  ```
+  sudo systemctl status snap.certbot.renew.service
+  ```
+  Output should be look like this
+  ```
+  Output
+  ○ snap.certbot.renew.service - Service for snap application certbot.renew
+     Loaded: loaded (/etc/systemd/system/snap.certbot.renew.service; static)
+     Active: inactive (dead)
+  TriggeredBy: ● snap.certbot.renew.timer
+  ```
+- To test the renewal process
+  ```
+  sudo certbot renew --dry-run
+  ```
+
