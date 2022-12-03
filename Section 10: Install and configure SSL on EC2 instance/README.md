@@ -16,10 +16,10 @@ temporary documentatio for ssl website for documentation
 https://www.cloudflare.com/learning/ssl/what-is-ssl/
 ```
 # Types of SSL certificate
-- Single Domain: It applies to only one domain ( Name of website)
-- Wildcard: it is also applies to only one domain but it applies multiple subdomain of same doamin name.
+- *Single Domain*: It applies to only one domain ( Name of website)
+- *Wildcard*: it is also applies to only one domain but it applies multiple subdomain of same doamin name.
   for e.g test.abc.com, test2.abc.com
     where abc.com is the main domain and test, test1 is the subdomain
-- Multidomain: SSL certicate can apply upto multiple unrelated domains
+- *Multidomain*: SSL certicate can apply upto multiple unrelated domains
 
 
