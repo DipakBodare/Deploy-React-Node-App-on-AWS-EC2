@@ -26,19 +26,19 @@ https://www.cloudflare.com/learning/ssl/what-is-ssl/
 # Installation of SSL certificate
 
 Pre-requisites:
-1. Need root access of server
+- Need root access of server
 
-Step 1: Installing snap 
-      ```
-      sudo snap install core; sudo snap refresh core
-      ```
-Step 2: Install classic certbot
-      ```
-      sudo snap install --classic certbot
-      ```
-Step 3: link certbot commands to snap directoy
-      ```
-      sudo ln -s /snap/bin/certbot /usr/bin/certbot
-      ```
+- Step 1: Installing snap 
+  ```
+  sudo snap install core; sudo snap refresh core
+  ```
+- Step 2: Install classic certbot
+  ```
+  sudo snap install --classic certbot
+  ```
+- Step 3: link certbot commands to snap directoy
+  ```
+  sudo ln -s /snap/bin/certbot /usr/bin/certbot
+  ```
       
         
