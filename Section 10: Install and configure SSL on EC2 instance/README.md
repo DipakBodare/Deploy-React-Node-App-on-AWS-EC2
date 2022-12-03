@@ -1,18 +1,25 @@
-# Deploy React + Node application on AWS EC2 instance
-This course is related to React and Node.js appplication deployment on AWS EC2 instance.
+# What is SSL
+- SSL means secure socket layer
+- Its a encryption based security protocol
+- It ensures privacy, authentication and data ntegrity in Internet communications.
 
+# How does SSL/TLS work
+- SSL encrypts data that is transmitted across the web.
+- anyone who tries to intercept this data will only see a garbled mix of characters that is nearly impossible to decrypt.
+- SSL also digitally signs data in order to provide data integrity, verifying that the data is not tampered with before reaching its intended recipient.
 
-# Services Covered in this course
-1. AWS Compute Instance (EC2)
-2. AWS Relations Database Service (RDS)
-3. Node.js 
-4. React
-5. Nginx
-6. Mongodb
-7. Cerbot
+# Why SSL/TLS is very important ?
+- If a consumer visited a shopping website, placed an order, and entered their credit card number on the website, that credit card number would travel       across the Internet unconcealed.
 
-# Who will Purchase This course ?
-- Fresher who dont have knowledge of AWS 
-- Developers who want Learn how to deploy the Node.js Applicaiton on AWS EC2 instance
-- Who want to learn How to deploy the application Best security practises
+temporary documentatio for ssl website for documentation
+```
+https://www.cloudflare.com/learning/ssl/what-is-ssl/
+```
+# Types of SSL certificate
+- Single Domain: It applies to only one domain ( Name of website)
+- Wildcard: it is also applies to only one domain but it applies multiple subdomain of same doamin name.
+  for e.g test.abc.com, test2.abc.com
+    where abc.com is the main domain and test, test1 is the subdomain
+- Multidomain: SSL certicate can apply upto multiple unrelated domains
+
 
