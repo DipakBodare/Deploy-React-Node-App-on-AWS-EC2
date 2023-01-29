@@ -1,6 +1,6 @@
 # Install Node.js on ubuntu server
 
-Step 1: Update the sercer
+Step 1: Update the server
 ```
 sudo apt update
 ```
@@ -9,6 +9,8 @@ Step 2: install node.js with "apt" utility on ubuntu server
 ```
 sudo apt install nodejs
 ```
+OR
+
 # Install Specific nodejs verison on ubuntu instance
 Step 1: Add PPA repository in ubuntu. we are going to install nodejs 18.xx version in this section.
 ```
