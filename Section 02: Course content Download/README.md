@@ -1,7 +1,7 @@
 # Course Content Download
 - You can download the course content by using following Github repo link:
 ```
-
+https://github.com/DipakBodare/deploy-react-node-app-on-aws-ec2
 ```
 - You can fork the repo in your own github account so that you can use your code.
 
