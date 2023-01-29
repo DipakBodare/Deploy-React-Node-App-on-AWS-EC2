@@ -16,6 +16,8 @@
 
 These are 3 online Source Code Management tools that we can use to store our applicatin code.
 
+# Requirements:
+1. You need to create the GitHub account.
 
 
 
