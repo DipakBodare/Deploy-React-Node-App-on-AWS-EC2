@@ -1,5 +1,4 @@
 # Deploy React + Node application on an AWS EC2 Instance
-This course is related to React and Node.js appplication deployment on AWS EC2 instance.
 
 # What will You learn  in this Course?
 - To create and Setup AWS EC2 instance (Server) 
