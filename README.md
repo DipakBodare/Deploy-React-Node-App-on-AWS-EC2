@@ -28,10 +28,21 @@
 | <a name="module_website_s3_bucket_2"></a> [website\_s3\_bucket\_2](#module\_website\_s3\_bucket\_2) | ./modules/aws-s3-static-website-bucket | n/a |
 
 ### Node.js 
+<img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/nodejs.png" height="100" alt="Node.js"> 
+
 ### React.js
+<img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/react.png" height="100" alt="React.js"> 
+
 ### Nginx
+<img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/nginx.png" height="100" alt="Nginx"> 
+
 ### Mongodb
+<img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/mongodb.png" height="100" alt="Mongodb"> 
+
+
 ### Cerbot
+<img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/certbot.png" height="100" alt="Certbot"> 
+
 
 ## Why to purchase this course?
 - Fresher who have a `Basic knowledge of AWS`.
