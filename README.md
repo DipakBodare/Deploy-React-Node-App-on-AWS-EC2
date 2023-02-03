@@ -1,4 +1,8 @@
-# Deploy React + Node application on an AWS EC2 Instance
+<h1 align="center"> Deploy React + Node application on an AWS EC2 Instance </h1>
+
+<p align="center"> Contains all my learning related to DevOps tools and tech.</p>
+
+
 
 # What will You learn  in this Course?
 - To create and Setup AWS EC2 instance (Server) 
@@ -8,12 +12,15 @@
 - To install nodejs dependancies and mondb server on EC2 instance
 
 ## Services Covered in this course
-1. AWS Compute Instance (EC2)
-2. Node.js 
-3. React.js
-4. Nginx
-5. Mongodb
-6. Cerbot
+
+### AWS Compute Instance (EC2)
+<img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/ec2.jpeg" height="100" alt="AWS Compute Instance (EC2)"> 
+
+### Node.js 
+### React.js
+### Nginx
+### Mongodb
+### Cerbot
 
 ## Why to purchase this course?
 - Fresher who have a `Basic knowledge of AWS`.
