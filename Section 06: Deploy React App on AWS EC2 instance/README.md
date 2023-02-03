@@ -1,4 +1,4 @@
-# <h1 align="center"> Introduction to React App <h1>
+<h1 align="center"> Introduction to React App <h1>
 
 ## Application Code
 - [React application Github Repo Link](https://github.com/DipakBodare/react-app-frontend)  
