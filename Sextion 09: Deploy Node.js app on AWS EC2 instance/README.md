@@ -45,6 +45,78 @@
   ```
   sudo npm i -g pm2 
   ```
+## PM2 Management Commands
+- Common Process command  
+  - To view details of a single Node process
+    ```
+    pm2 show 0
+    ```
+  - Stop all apps
+    ```
+    pm2 stop all
+    ```  
+  - Stop process with ID 0
+    ```
+    pm2 stop 0  
+    ```
+  - Restart all apps
+    ```
+    pm2 restart all
+    ```
+  
+  - Reset all counters
+    ```
+    pm2 reset 0
+    ```
+  
+  - Kill and remove all apps
+    ```
+    pm2 delete all
+    ```
+  
+  - Kill and delete app with ID 1
+    ```
+    pm2 delete 1 
+    ```
+- To manage application logs  
+  - View logs for all processes
+    ```
+    pm2 logs
+    ```
+  - View logs for app 1
+    ```
+    pm2 logs 1
+    ```
+  - View logs for all processes in JSON format
+    ```
+    pm2 logs --json
+    ```
+  - Flush all logs
+    ```
+    pm2 flush
+    ```
+- To manage the PM2 process
+  - Enable PM2 to start at system boot
+    ```
+    pm2 startup
+    ```
+  - Explicitly specify systemd as startup system 
+    ```
+    pm2 startup systemd
+    ```
+  - Save current process list on reboot
+    ```
+    pm2 save  
+    ```
+  - Disable PM2 from starting at system boot
+    ```
+    pm2 unstartup
+    ```
+  - Update PM2 package
+    ```
+    pm2 update
+    ```
+  
   
 ## Install Mongodb Database on EC2 Instance
 
