@@ -55,7 +55,10 @@
   ```
   sudo chown -R $USER:$USER /var/www/domain_name/
   ```
-	
+- Allow the permissions only to owner to ```read```, ```write```, and ```execute``` the files   
+  ```
+  sudo chmod -R 755 /var/www/domain_name
+  ```
 - Clone the git repo
   ```
   git clone git@github.com:DipakBodare/react-app-frontend.git
