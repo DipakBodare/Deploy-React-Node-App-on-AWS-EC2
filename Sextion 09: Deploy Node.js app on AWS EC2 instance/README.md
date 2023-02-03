@@ -4,7 +4,7 @@
 - Node.js is a JavaScript runtime for server-side programming. 
 - we can create scalable backend functionality using JavaScript  
   
-## [Node Application URL](https://github.com/DipakBodare/node-api-backend)  
+## [Node Application Github Repo Link](https://github.com/DipakBodare/node-api-backend)  
 
 ## Local Demo of Node App
 
@@ -30,7 +30,7 @@
 - Check the Nodejs Version
   ```
   node -v
-  ```
+  ``` 
  
 ## Install PM2 on EC2 Instance
 - PM2 Called as a ```Product Process Manager```
@@ -41,7 +41,11 @@
   - Efficient management of micro-services/processes. 
   - Running apps in cluster mode. 
   - Graceful start and shutdown of apps.  
-
+- Install the latest version of PM2
+  ```
+  sudo npm i -g pm2 
+  ```
+  
 ## Install Mongodb Database on EC2 Instance
 
 ## Clone the application git repository on EC2 Instance
