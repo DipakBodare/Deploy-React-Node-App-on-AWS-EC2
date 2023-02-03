@@ -73,13 +73,100 @@
   | 4 | Disable PM2 from starting at system boot | `pm2 unstartup` |
   | 5 | Update PM2 package | `pm2 update` | 
   
-## Install Mongodb Database on EC2 Instance
+## Deploy the application on EC2 Instance
+- Install the git on EC2 instance
+  ```
+  sudo apt update
+  sudo apt install git
+  ```
+   
+- Check the git verison
+  ```
+  git --version
+  ```
+- Create the directory for applications
+  ```
+  sudo mkdir -p /var/www/domain_name  
+  ```	
+	
+- Assign user permissions for directory	
+  ```
+  sudo chown -R $USER:$USER /var/www/domain_name/
+  ```
+- Allow the permissions only to owner to `read`, `write`, and `execute` the files   
+  ```
+  sudo chmod -R 755 /var/www/domain_name
+  ```
+- Clone the git repo
+  ```
+  git clone git@github.com:DipakBodare/react-app-frontend.git
+  ```  
+	
+## Configure Nginx File for React App
+- Create the nginx config file
+  ```
+  sudo touch /etc/nginx/sites-available/domain_name
+  ```
+  
+- Add the below content in nginx config file  
+  
+  - Open the nginx file and add the below nginx config file
+    ```
+    sudo vim /etc/nginx/sites-available/domain_name
+    ```
+    
+    ```
+    server {
+	  listen 80;
+          server_name Your_Domain_Name;
+		#root /var/www/domain_name/react-app-frontend/build;
+		#try_files $uri $uri/ /index.html =404;
+          client_max_body_size 50M;
+          
+          location ~ /.well-known {
+                  allow all;
+          }
 
-## Clone the application git repository on EC2 Instance
+		#location / {
+	        #	root /var/www/domain_name/react-app-frontend/build;
+	        #	try_files $uri $uri/ /index.html =404;
+	        #}
+	
+	        location / {
+                # First attempt to serve request as file, then
+                # as directory, then fall back to displaying a 404.
+ 	        #add_header 'Access-Control-Allow-Origin' '*';
+                #add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+		#add_header 'Access-Control-Allow-Headers' 'Origin, X-Requested-With, Content-Type, Accept';
+        	proxy_pass http://127.0.0.1:3035;
+                proxy_read_timeout 3600;
+                proxy_connect_timeout 3600;
+                proxy_send_timeout 3600;
+                proxy_read_timeout 3600;
+                #send_timeout 3600;  
+                try_files $uri $uri/ /index.html =404;
+          }
 
-## Configure Nginx File for Node App
-
-## Acccess the Node app using IP address and Domain Name
-
-## Create SSL Certificates for Nodejs App
+    }
+    ```
+  
+- Create the symbolic link for site
+  ```
+  sudo ln -s /etc/nginx/sites-available/domain_name /etc/nginx/sites-enabled/
+  ```
+  
+- Validate the nginx config file
+  ```
+  nginx -t
+  ```
+  
+- Restart the nginx service
+  ```
+  sudo service nginx restart
+  ```
+    
+## Access the React app using Doamin Name  
+```
+http://your_server_ip
+```
 
