@@ -35,6 +35,22 @@
   localhost
   ```
 ## Clone the application git repository
-
+- Install the git on EC2 instance
+  ```
+  sudo apt update
+  sudo apt install git
+  ```
+- Check the git verison
+  ```
+  git --version
+ ``` 
+- Clone the git repo
+  ```
+  git clone git@github.com:DipakBodare/react-app-frontend.git
+  ```
+- Copy the build folder in the ```html``` folder
+  ```
+  cp -r application_code/build/ /var/www/html/
+  ```
 ## Access the React app using IP Address
 
