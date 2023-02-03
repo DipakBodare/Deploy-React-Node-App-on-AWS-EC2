@@ -1,4 +1,6 @@
-## Deploy Node.js app on AWS EC2 instance
+## <h1 align=center> Deploy Node.js app on AWS EC2 instance <h1>
+
+
 
 ## Introduction of Node app
 
