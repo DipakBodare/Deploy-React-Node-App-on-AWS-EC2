@@ -78,7 +78,7 @@
     server {
 	  listen 80;
           server_name Your_Domain_Name;
-	        root /var/www/ssquare.ntb.one/ssquarespenta/out;
+	        root /var/www/html/app_name_build;
 	        try_files $uri $uri/ /index.html =404;
           client_max_body_size 50M;
           
@@ -86,8 +86,8 @@
                   allow all;
           }
 
-	        #location / {
-	        #	root /var/www/workflow/build;
+	  #location / {
+	        #	root /var/www/app_name/build;
 	        #	try_files $uri $uri/ /index.html =404;
 	        #}
 	
