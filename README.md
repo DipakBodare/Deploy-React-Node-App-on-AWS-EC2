@@ -16,9 +16,7 @@
 ### AWS Compute Instance (EC2)
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/ec2.jpeg" height="100" alt="AWS Compute Instance (EC2)"> 
 
-- [Notes](Kubernetes/README.md)
-- [Commands](Kubernetes/commands/README.md)
-- [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
+- [Offical Link](https://aws.amazon.com/ec2/)
 
 ### Modules
 
@@ -30,38 +28,27 @@
 ### Node.js 
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/nodejs.png" height="100" alt="Node.js"> 
 
-- [Notes](Kubernetes/README.md)
-- [Commands](Kubernetes/commands/README.md)
-- [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
+- [Official Link](https://nodejs.org/)
 
 ### React.js
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/react.png" height="90" alt="React.js"> 
 
-- [Notes](Kubernetes/README.md)
-- [Commands](Kubernetes/commands/README.md)
-- [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
+- [Official Link](https://reactjs.org/)
 
 ### Nginx
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/nginx.png" height="80" alt="Nginx"> 
 
-- [Notes](Kubernetes/README.md)
-- [Commands](Kubernetes/commands/README.md)
-- [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
+- [Official Link](https://www.nginx.com/)
 
 ### Mongodb
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/mongodb.png" height="60" alt="Mongodb"> 
 
-- [Notes](Kubernetes/README.md)
-- [Commands](Kubernetes/commands/README.md)
-- [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
-
+- [Official Link](https://www.mongodb.com/)
 
 ### Cerbot
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/certbot.png" height="60" alt="Certbot"> 
 
-- [Notes](Kubernetes/README.md)
-- [Commands](Kubernetes/commands/README.md)
-- [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
+- [Official Link](https://certbot.eff.org/)
 
 # Why to purchase this course?
 - Fresher who have a `Basic knowledge of AWS`.
