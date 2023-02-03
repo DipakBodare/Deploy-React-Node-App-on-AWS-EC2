@@ -20,6 +20,13 @@
 - [Commands](Kubernetes/commands/README.md)
 - [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
 
+## Modules
+
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_website_s3_bucket_1"></a> [website\_s3\_bucket\_1](#module\_website\_s3\_bucket\_1) | ./modules/aws-s3-static-website-bucket | n/a |
+| <a name="module_website_s3_bucket_2"></a> [website\_s3\_bucket\_2](#module\_website\_s3\_bucket\_2) | ./modules/aws-s3-static-website-bucket | n/a |
+
 ### Node.js 
 ### React.js
 ### Nginx
