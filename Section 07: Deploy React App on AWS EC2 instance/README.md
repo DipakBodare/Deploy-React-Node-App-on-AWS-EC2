@@ -1,6 +1,7 @@
-<h1 align="center"> Introduction to React App <h1>
+<h1 align="center"> Deploy React App on AWS EC2 instance <h1>
 
-## Application Code
+## App Demo of React app
+
 - [React application Github Repo Link](https://github.com/DipakBodare/react-app-frontend)  
   
 ## What is React.js
