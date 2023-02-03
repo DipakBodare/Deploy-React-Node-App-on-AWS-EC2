@@ -78,15 +78,15 @@
     server {
 	  listen 80;
           server_name Your_Domain_Name;
-	root /var/www/domain_name/build;
-	try_files $uri $uri/ /index.html =404;
+		root /var/www/domain_name/build;
+		try_files $uri $uri/ /index.html =404;
           client_max_body_size 50M;
           
           location ~ /.well-known {
                   allow all;
           }
 
-	#location / {
+		#location / {
 	        #	root /var/www/domain_name/build;
 	        #	try_files $uri $uri/ /index.html =404;
 	        #}
