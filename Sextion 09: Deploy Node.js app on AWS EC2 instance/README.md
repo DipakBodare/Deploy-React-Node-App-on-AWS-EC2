@@ -78,7 +78,7 @@
     ```
     pm2 delete 0 
     ```
-- To manage application logs  
+### To manage application logs  
   - View logs for all processes
     ```
     pm2 logs
@@ -95,7 +95,7 @@
     ```
     pm2 flush
     ```
-- To manage the PM2 process
+### To manage the PM2 process
   - Enable PM2 to start at system boot
     ```
     pm2 startup
