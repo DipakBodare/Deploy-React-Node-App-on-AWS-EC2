@@ -1,4 +1,7 @@
-## Introduction to React Demo app 
+## <h1 align="center"> Introduction to React App <h1>
+
+## Shows Demo Locally
+
 
 ## Clone the application git repository
 
