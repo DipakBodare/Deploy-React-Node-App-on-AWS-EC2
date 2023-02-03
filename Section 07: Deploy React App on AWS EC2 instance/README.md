@@ -35,39 +35,39 @@
   localhost
   ```
 ## Deploy the application on EC2 Instance
-  - Install the git on EC2 instance
+- Install the git on EC2 instance
   ```
   sudo apt update
   sudo apt install git
   ```
    
-  - Check the git verison
+- Check the git verison
   ```
   git --version
   ```
  
-  - Clone the git repo
+- Clone the git repo
   ```
   git clone git@github.com:DipakBodare/react-app-frontend.git
   ```
   
-  - Copy the build folder in the ```html``` folder
+- Copy the build folder in the ```html``` folder
   ```
   cp -r application_code/build/ /var/www/html/
   ```
   
-  - Access the app using IP address
+- Access the app using IP address
   ``` 
   ip_adress_of_server
   ```
   
 ## Configure Nginx File for React App
-  - Create the nginx config file
+- Create the nginx config file
   ```
   sudo touch /etc/nginx/sites-available/site-name
   ```
   
-  - Add the below content in nginx config file  
+- Add the below content in nginx config file  
   
   - Open the nginx file and add the below nginx config file
     ```
@@ -109,20 +109,20 @@
     }
     ```
   
-  - Create the symbolic link for site
-    ```
-    sudo ln -s /etc/nginx/sites-available/site-name /etc/nginx/sites-enabled/
-    ```
+- Create the symbolic link for site
+  ```
+  sudo ln -s /etc/nginx/sites-available/site-name /etc/nginx/sites-enabled/
+  ```
   
-  - validate the nginx config file
-    ```
-    nginx -t
-    ```
+- Validate the nginx config file
+  ```
+  nginx -t
+  ```
   
-  - Restart the nginx service
-    ```
-    sudo service nginx restart
-    ```
+- Restart the nginx service
+  ```
+  sudo service nginx restart
+  ```
     
 ## Access the React app using Doamin Name  
 
