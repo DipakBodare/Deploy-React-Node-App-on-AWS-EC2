@@ -47,41 +47,17 @@
   ```
 ## PM2 Management Commands
 ### Common Process command  
-  - To view details of a single Node process
-    ```
-    pm2 show 0
-    ```
-  - Stop all apps
-    ```
-    pm2 stop all
-    ```  
-  | Sr No | Source | Version |
+   
+  | Sr No | Command Uses | Command |
   |------|--------|---------|
-  | 1 | `pm2 stop all` | Stop all apps |  
-  
-  - Stop process with ID 0
-    ```
-    pm2 stop 0  
-    ```
-  - Restart all apps
-    ```
-    pm2 restart all
-    ```
-  
-  - Reset all counters
-    ```
-    pm2 reset 0
-    ```
-  
-  - Kill and remove all apps
-    ```
-    pm2 delete all
-    ```
-  
-  - Kill and delete app with ID 0
-    ```
-    pm2 delete 0 
-    ```
+  | 1 | To view details of a single Node process | pm2 show 0 |
+  | 2 | Stop all apps | `pm2 stop all` |  
+  | 3 | Stop process with ID 0 | pm2 stop 0 | 
+  | 4 | Restart all apps | pm2 restart all |
+  | 5 | Reset all counters | pm2 reset 0 | 
+  | 6 | Kill and remove all apps | pm2 delete all |
+  | 7 | Kill and delete app with ID 0 | pm2 delete 0 |
+ 
 ### To manage application logs  
   - View logs for all processes
     ```
