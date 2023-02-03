@@ -38,11 +38,11 @@ sudo certbot --nginx -d domain_name -d domain_name
 - so need to enable systemd timer
 
 - Verify the status of timer
-```
-sudo systemctl status snap.certbot.renew.service
-```
+  ```
+  sudo systemctl status snap.certbot.renew.service
+  ```
 
 - Test the renewal process
-```
-sudo certbot renew --dry-run
-```
+  ```
+  sudo certbot renew --dry-run
+  ```
