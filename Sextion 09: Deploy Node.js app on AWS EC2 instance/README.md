@@ -1,9 +1,32 @@
-## <h1 align=center> Deploy Node.js app on AWS EC2 instance <h1>
+# <h1 align=center> Deploy Node.js app on AWS EC2 instance <h1>
 
+## What is Node.js?
+- Node.js is a JavaScript runtime for server-side programming. 
+- we can create scalable backend functionality using JavaScript  
+  
+## [Node Application URL](https://github.com/DipakBodare/node-api-ba  
+## Local Demo of Node App
 
-
-## Introduction of Node app
-
+## Install nodejs on EC2 using PPA (Personal Package Archive).
+- Pre-requisites: 
+  - Should have ```non-root`` user account with ```sudo previledge```
+  
+- Download the Installation script
+  ```
+  cd ~
+  curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_sp.sh
+  ```
+  
+- Run the Installation script with sudo previledge
+  ```
+  sudo bash nodesource_setup.sh
+  ```
+  
+- Check the Nodejs Version
+  ```
+  node -v
+  ```
+  
 ## Install Node.js on EC2 instance
 
 ## Install PM2 on EC2 Instance
