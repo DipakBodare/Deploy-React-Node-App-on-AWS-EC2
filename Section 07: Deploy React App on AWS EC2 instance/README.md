@@ -124,8 +124,8 @@
   ```
     
 ## Access the React app using Doamin Name  
-	```
-	http://your_server_ip
-	```
+```
+http://your_server_ip
+```
 	
 
