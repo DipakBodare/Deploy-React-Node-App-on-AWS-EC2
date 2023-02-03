@@ -59,44 +59,21 @@
   | 7 | Kill and delete app with ID 0 | `pm2 delete 0` |
  
 ### To manage application logs  
-  - View logs for all processes
-    ```
-    pm2 logs
-    ```
-  - View logs for app 0
-    ```
-    pm2 logs 0
-    ```
-  - View logs for all processes in JSON format
-    ```
-    pm2 logs --json
-    ```
-  - Flush all logs
-    ```
-    pm2 flush
-    ```
+  | Sr No | Command Uses | Command |
+  |------|--------|---------|
+  | 1 | View logs for all processes | pm2 logs |
+  | 2 | View logs for app 0  | pm2 logs 0 |
+  | 3 | View logs for all processes in JSON format | pm2 logs --json |
+  | 4 | Flush all logs | pm2 flush |
+ 
 ### To manage the PM2 process
-  - Enable PM2 to start at system boot
-    ```
-    pm2 startup
-    ```
-  - Explicitly specify systemd as startup system 
-    ```
-    pm2 startup systemd
-    ```
-  - Save current process list on reboot
-    ```
-    pm2 save  
-    ```
-  - Disable PM2 from starting at system boot
-    ```
-    pm2 unstartup
-    ```
-  - Update PM2 package
-    ```
-    pm2 update
-    ```
-  
+  | Sr No | Command Uses | Command |
+  |------|--------|---------|
+  | 1 | Enable PM2 to start at system boot | pm2 startup |
+  | 2 | Explicitly specify systemd as startup system | pm2 startup systemd |
+  | 3 | Save current process list on reboot | pm2 save |
+  | 4 | Disable PM2 from starting at system boot | pm2 unstartup |
+  | 5 | Update PM2 package | pm2 update | 
   
 ## Install Mongodb Database on EC2 Instance
 
