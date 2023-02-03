@@ -1,4 +1,4 @@
-<h1 align="center"> Deploy React + Node application on an AWS EC2 Instance </h1>
+# <h1 align="center"> Deploy React + Node application on an AWS EC2 Instance </h1>
 
 <p align="center"> Contains all my learning related to DevOps tools and tech.</p>
 
