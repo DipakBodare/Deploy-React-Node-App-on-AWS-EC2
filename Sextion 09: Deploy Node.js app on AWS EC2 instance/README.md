@@ -4,7 +4,8 @@
 - Node.js is a JavaScript runtime for server-side programming. 
 - we can create scalable backend functionality using JavaScript  
   
-## [Node Application URL](https://github.com/DipakBodare/node-api-ba  
+## [Node Application URL](https://github.com/DipakBodare/node-api-backend)  
+
 ## Local Demo of Node App
 
 ## Install nodejs on EC2 using PPA (Personal Package Archive).
@@ -21,15 +22,25 @@
   ```
   sudo bash nodesource_setup.sh
   ```
+- Install the nodejs
+  ```
+  sudo apt install nodejs
+  ```
   
 - Check the Nodejs Version
   ```
   node -v
   ```
-  
-## Install Node.js on EC2 instance
-
+ 
 ## Install PM2 on EC2 Instance
+- PM2 Called as a ```Product Process Manager```
+- PM2 is a free open source, advanced, efficient and cross-platform production-level process manager
+- it also has incredible support for major Node.js frameworks such as Express, Adonis Js, Sails, Hapi and more, without need for any code changes.
+- It has following features
+  - App monitoring, 
+  - Efficient management of micro-services/processes. 
+  - Running apps in cluster mode. 
+  - Graceful start and shutdown of apps.  
 
 ## Install Mongodb Database on EC2 Instance
 
