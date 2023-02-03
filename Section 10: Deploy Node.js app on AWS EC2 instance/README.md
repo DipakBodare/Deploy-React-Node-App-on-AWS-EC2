@@ -170,3 +170,8 @@
 http://your_server_ip
 ```
 
+## Create SSL Certificates for React App 
+```
+sudo certbot --nginx -d domain_name
+```	
+
