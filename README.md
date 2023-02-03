@@ -27,28 +27,28 @@
 | <a name="module_website_s3_bucket_1"></a> [website\_s3\_bucket\_1](#module\_website\_s3\_bucket\_1) | ./modules/aws-s3-static-website-bucket | n/a |
 | <a name="module_website_s3_bucket_2"></a> [website\_s3\_bucket\_2](#module\_website\_s3\_bucket\_2) | ./modules/aws-s3-static-website-bucket | n/a |
 
-## Node.js 
+### Node.js 
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/nodejs.png" height="100" alt="Node.js"> 
 
 - [Notes](Kubernetes/README.md)
 - [Commands](Kubernetes/commands/README.md)
 - [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
 
-## React.js
+### React.js
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/react.png" height="90" alt="React.js"> 
 
 - [Notes](Kubernetes/README.md)
 - [Commands](Kubernetes/commands/README.md)
 - [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
 
-## Nginx
+### Nginx
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/nginx.png" height="80" alt="Nginx"> 
 
 - [Notes](Kubernetes/README.md)
 - [Commands](Kubernetes/commands/README.md)
 - [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
 
-## Mongodb
+### Mongodb
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/mongodb.png" height="60" alt="Mongodb"> 
 
 - [Notes](Kubernetes/README.md)
@@ -56,7 +56,7 @@
 - [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
 
 
-## Cerbot
+### Cerbot
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/certbot.png" height="60" alt="Certbot"> 
 
 - [Notes](Kubernetes/README.md)
