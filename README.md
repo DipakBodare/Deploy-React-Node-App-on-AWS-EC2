@@ -16,6 +16,10 @@
 ### AWS Compute Instance (EC2)
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/ec2.jpeg" height="100" alt="AWS Compute Instance (EC2)"> 
 
+- [Notes](Kubernetes/README.md)
+- [Commands](Kubernetes/commands/README.md)
+- [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
+
 ### Node.js 
 ### React.js
 ### Nginx
