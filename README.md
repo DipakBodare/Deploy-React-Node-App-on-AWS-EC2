@@ -29,20 +29,34 @@
 
 ### Node.js 
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/nodejs.png" height="100" alt="Node.js"> 
+- [Notes](Kubernetes/README.md)
+- [Commands](Kubernetes/commands/README.md)
+- [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
 
 ### React.js
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/react.png" height="100" alt="React.js"> 
+- [Notes](Kubernetes/README.md)
+- [Commands](Kubernetes/commands/README.md)
+- [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
 
 ### Nginx
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/nginx.png" height="100" alt="Nginx"> 
+- [Notes](Kubernetes/README.md)
+- [Commands](Kubernetes/commands/README.md)
+- [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
 
 ### Mongodb
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/mongodb.png" height="100" alt="Mongodb"> 
+- [Notes](Kubernetes/README.md)
+- [Commands](Kubernetes/commands/README.md)
+- [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
 
 
 ### Cerbot
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/certbot.png" height="100" alt="Certbot"> 
-
+- [Notes](Kubernetes/README.md)
+- [Commands](Kubernetes/commands/README.md)
+- [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
 
 ## Why to purchase this course?
 - Fresher who have a `Basic knowledge of AWS`.
