@@ -74,7 +74,7 @@
     pm2 delete all
     ```
   
-  - Kill and delete app with ID 1
+  - Kill and delete app with ID 0
     ```
     pm2 delete 0 
     ```
