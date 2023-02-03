@@ -55,8 +55,9 @@
     ```
     pm2 stop all
     ```  
-  
-    | `pm2 stop all` | `Stop all apps` |  
+  | Sr No | Source | Version |
+  |------|--------|---------|
+  | 1 | `pm2 stop all` | Stop all apps |  
   
   - Stop process with ID 0
     ```
