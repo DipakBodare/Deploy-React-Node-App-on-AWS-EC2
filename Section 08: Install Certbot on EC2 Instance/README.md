@@ -31,7 +31,7 @@
    
 ## Create SSL Certificates for React App 
 ```
-sudo certbot --nginx -d domain_name -d domain_name
+sudo certbot --nginx -d domain_name
 ```
 ## Verify Certbot Auto-renewal
 - Let’s Encrypt’s certificates are only valid for ```90 days```.
