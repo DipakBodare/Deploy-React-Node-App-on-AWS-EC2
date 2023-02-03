@@ -164,14 +164,14 @@
   ```
   sudo service nginx restart
   ```
-    
-## Access the React app using Doamin Name  
-```
-http://your_server_ip
-```
 
 ## Create SSL Certificates for React App 
 ```
 sudo certbot --nginx -d domain_name
+```
+
+## Access the Node app using Doamin Name  
+```
+https://domain_name
 ```	
 
