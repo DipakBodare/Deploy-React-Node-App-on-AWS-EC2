@@ -6,8 +6,6 @@
   
 ## [Node Application Github Repo Link](https://github.com/DipakBodare/node-api-backend)  
 
-## Local Demo of Node App
-
 ## Install nodejs on EC2 using PPA (Personal Package Archive).
 - Pre-requisites: 
   - Should have ```non-root``` user account with ```sudo previledge```
