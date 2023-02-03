@@ -9,7 +9,7 @@
 - To deploy react app on EC2 and access it using internet 
 - To deploy Node App on EC2 instance and access it using internet
 - To install and Configure Web server on EC2 to serve the Web Traffic to application
-- To install nodejs dependancies and mondb server on EC2 instance
+- To install nodejs dependancies and mongodb server on EC2 instance
 
 # Services Covered in this course
 
