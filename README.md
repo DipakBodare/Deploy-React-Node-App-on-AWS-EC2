@@ -32,26 +32,22 @@
 
 ## React.js
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/react.png" height="90" alt="React.js"> 
+
 - [Official Link](https://reactjs.org/)
-
-
 
 ## Nginx
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/nginx.png" height="80" alt="Nginx"> 
-
 
 - [Official Link](https://www.nginx.com/)
 
 
 ## Mongodb
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/mongodb.png" height="60" alt="Mongodb"> 
+
 - [Official Link](https://www.mongodb.com/)
-
-
 
 ## Cerbot
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/certbot.png" height="60" alt="Certbot"> 
-
 
 - [Official Link](https://certbot.eff.org/)
 
