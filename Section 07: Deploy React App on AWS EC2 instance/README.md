@@ -28,7 +28,7 @@
 ## Check the App Locally
 - Copy Application in html folder and open the app
   ``` 
-  cp -r /home/user/application_path/Build/ /var//www/html
+  cp -r /home/user/application_path/Build/ /var/www/html
   ```
 - Open the application in a browser
   ```
@@ -52,5 +52,34 @@
   ```
   cp -r application_code/build/ /var/www/html/
   ```
-## Access the React app using IP Address
+- Access the app using IP address
+  ``` 
+  ip_adress_of_server
+  ```
+  
+## Configure Nginx File for React App
+- Create the nginx config file
+  ```
+  sudo touch /etc/nginx/sites-available/site-name
+  ```
+- Add the below content in nginx config file  
+  - Open the nginx file
+    ```
+    sudo vim /etc/nginx/sites-available/site-name
+    ```
+  - Create the symbolic link for site
+    ```
+    sudo ln -s /etc/nginx/sites-available/site-name /etc/nginx/sites-enabled/
+    ```
+  - validate the nginx config file
+    ```
+    nginx -t
+    ```
+  - Restart the nginx service
+    ```
+    sudo service nginx restart
+    ```
+## Access the React app 
+
+- 
 
