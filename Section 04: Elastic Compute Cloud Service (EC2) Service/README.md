@@ -1,4 +1,5 @@
 ## <h1 align="center"> Introduction to AWS EC2 Instance <h1>
+<img align="center" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/ec2.jpeg" height="100"> 
 
 - [EC2 Instance official link](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)  
   
