@@ -46,7 +46,7 @@
   sudo npm i -g pm2 
   ```
 ## PM2 Management Commands
-- Common Process command  
+### Common Process command  
   - To view details of a single Node process
     ```
     pm2 show 0
