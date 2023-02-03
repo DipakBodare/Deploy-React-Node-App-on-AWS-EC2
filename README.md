@@ -26,13 +26,13 @@
 | <a name="module_website_s3_bucket_2"></a> [website\_s3\_bucket\_2](#module\_website\_s3\_bucket\_2) | ./modules/aws-s3-static-website-bucket | n/a |
 
 ## Node.js 
-<img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/nodejs.png" height="100" alt="Node.js"> 
+<img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/nodejs.png" height="80" alt="Node.js"> 
 
 - [Official Link](https://nodejs.org/)
 
 
 ## React.js
-<img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/react.png" height="90" alt="React.js"> 
+<img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/react.png" height="80" alt="React.js"> 
 
 - [Official Link](https://reactjs.org/)
 
