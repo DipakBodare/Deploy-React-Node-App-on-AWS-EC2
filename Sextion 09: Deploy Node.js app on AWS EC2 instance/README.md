@@ -76,16 +76,16 @@
   
   - Kill and delete app with ID 1
     ```
-    pm2 delete 1 
+    pm2 delete 0 
     ```
 - To manage application logs  
   - View logs for all processes
     ```
     pm2 logs
     ```
-  - View logs for app 1
+  - View logs for app 0
     ```
-    pm2 logs 1
+    pm2 logs 0
     ```
   - View logs for all processes in JSON format
     ```
