@@ -49,7 +49,7 @@
 - [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
 
 ## Mongodb
-<img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/mongodb.png" height="50" alt="Mongodb"> 
+<img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/mongodb.png" height="60" alt="Mongodb"> 
 
 - [Notes](Kubernetes/README.md)
 - [Commands](Kubernetes/commands/README.md)
@@ -57,7 +57,7 @@
 
 
 ## Cerbot
-<img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/certbot.png" height="50" alt="Certbot"> 
+<img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/certbot.png" height="60" alt="Certbot"> 
 
 - [Notes](Kubernetes/README.md)
 - [Commands](Kubernetes/commands/README.md)
