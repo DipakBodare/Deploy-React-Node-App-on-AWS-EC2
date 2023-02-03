@@ -1,10 +1,13 @@
-## <h1 align="center"> Introduction to React App <h1>
+# <h1 align="center"> Introduction to React App <h1>
 
+## Application Code
+- [React application Github Repo Link](https://github.com/DipakBodare/react-app-frontend)  
+  
 ## What is React.js
   - React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.
   
-## Shows Demo Locally
-
+# Shows Demo Locally
+  
 ## How to build The react app  
 
 - Install the applicaiton dependancies
@@ -23,11 +26,14 @@
   - Final output is in `Build` folder
   
 ## Check the App Locally
-- Open the Application in Browser
+- Copy Application in html folder and open the app
   ``` 
-  /home/user/application_path/Build/index.html
+  cp -r /home/user/application_path/Build/ /var//www/html
   ```
-
+- Open the application in a browser
+  ```
+  localhost
+  ```
 ## Clone the application git repository
 
 ## Access the React app using IP Address
