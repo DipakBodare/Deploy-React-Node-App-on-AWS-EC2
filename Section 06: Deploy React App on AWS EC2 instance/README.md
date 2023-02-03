@@ -11,7 +11,11 @@
   ```
   npm install
   ```
-- Build the Application 
+- Run the Application in Developement mode
+  ```
+  npm start
+  ```
+- Build the Application for production 
   ```
   npm run build
   ```
