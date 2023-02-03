@@ -1,4 +1,4 @@
-## <h1 align="center"> Introduction to AWS EC2 Instance (Server)<h1>
+## <h1 align="center"> Introduction to AWS EC2 Instance <h1>
 
 # What is AWS EC2 Instance?
 
