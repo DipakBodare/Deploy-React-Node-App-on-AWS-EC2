@@ -10,7 +10,7 @@
 
 ## Install nodejs on EC2 using PPA (Personal Package Archive).
 - Pre-requisites: 
-  - Should have ```non-root`` user account with ```sudo previledge```
+  - Should have ```non-root``` user account with ```sudo previledge```
   
 - Download the Installation script
   ```
