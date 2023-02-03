@@ -64,22 +64,22 @@
 ## Configure Nginx File for React App
 - Create the nginx config file
   ```
-  sudo touch /etc/nginx/sites-available/site-name
+  sudo touch /etc/nginx/sites-available/domain_name
   ```
   
 - Add the below content in nginx config file  
   
   - Open the nginx file and add the below nginx config file
     ```
-    sudo vim /etc/nginx/sites-available/site-name
+    sudo vim /etc/nginx/sites-available/domain_name
     ```
     
     ```
     server {
 	  listen 80;
           server_name Your_Domain_Name;
-	        root /var/www/html/app_name_build;
-	        try_files $uri $uri/ /index.html =404;
+	  root /var/www/domain_name/build;
+	  try_files $uri $uri/ /index.html =404;
           client_max_body_size 50M;
           
           location ~ /.well-known {
@@ -87,17 +87,17 @@
           }
 
 	  #location / {
-	        #	root /var/www/app_name/build;
+	        #	root /var/www/domain_name/build;
 	        #	try_files $uri $uri/ /index.html =404;
 	        #}
 	
 	        #location / {
                 # First attempt to serve request as file, then
                 # as directory, then fall back to displaying a 404.
- 	            	#add_header 'Access-Control-Allow-Origin' '*';
+ 	        #add_header 'Access-Control-Allow-Origin' '*';
                 #add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
-		            #add_header 'Access-Control-Allow-Headers' 'Origin, X-Requested-With, Content-Type, Accept';
-        	      #proxy_pass http://127.0.0.1:3035;
+		#add_header 'Access-Control-Allow-Headers' 'Origin, X-Requested-With, Content-Type, Accept';
+        	#proxy_pass http://127.0.0.1:3035;
                 #proxy_read_timeout 3600;
                 #proxy_connect_timeout 3600;
                 #proxy_send_timeout 3600;
@@ -111,7 +111,7 @@
   
 - Create the symbolic link for site
   ```
-  sudo ln -s /etc/nginx/sites-available/site-name /etc/nginx/sites-enabled/
+  sudo ln -s /etc/nginx/sites-available/domain_name /etc/nginx/sites-enabled/
   ```
   
 - Validate the nginx config file
