@@ -11,16 +11,16 @@
 - To install and Configure Web server on EC2 to serve the Web Traffic to application
 - To install nodejs dependancies and mondb server on EC2 instance
 
-# Services Covered in this course
+## Services Covered in this course
 
-## AWS Compute Instance (EC2)
+### AWS Compute Instance (EC2)
 <img align="right" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/ec2.jpeg" height="100" alt="AWS Compute Instance (EC2)"> 
 
 - [Notes](Kubernetes/README.md)
 - [Commands](Kubernetes/commands/README.md)
 - [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/Kubernetes/YAML)
 
-## Modules
+### Modules
 
 | Name | Source | Version |
 |------|--------|---------|
