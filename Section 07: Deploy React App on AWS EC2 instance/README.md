@@ -45,22 +45,21 @@
   ```
   git --version
   ```
- 
+- Create the directory for applications
+  ```
+  sudo mkdir -p /var/www/domain_name  
+  ```	
+	
+- Assign user permissions for directory	
+  ```
+  sudo chown -R $USER:$USER /var/www/domain_name/
+  ```
+	
 - Clone the git repo
   ```
   git clone git@github.com:DipakBodare/react-app-frontend.git
-  ```
-  
-- Copy the build folder in the ```html``` folder
-  ```
-  cp -r application_code/build/ /var/www/html/
-  ```
-  
-- Access the app using IP address
-  ``` 
-  ip_adress_of_server
-  ```
-  
+  ```  
+	
 ## Configure Nginx File for React App
 - Create the nginx config file
   ```
@@ -78,7 +77,7 @@
     server {
 	  listen 80;
           server_name Your_Domain_Name;
-		root /var/www/domain_name/build;
+		root /var/www/domain_name/react-app-frontend/build;
 		try_files $uri $uri/ /index.html =404;
           client_max_body_size 50M;
           
@@ -87,7 +86,7 @@
           }
 
 		#location / {
-	        #	root /var/www/domain_name/build;
+	        #	root /var/www/domain_name/react-app-frontend/build;
 	        #	try_files $uri $uri/ /index.html =404;
 	        #}
 	
@@ -125,5 +124,8 @@
   ```
     
 ## Access the React app using Doamin Name  
-
+	```
+	http://your_server_ip
+	```
+	
 
