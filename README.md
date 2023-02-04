@@ -1,6 +1,6 @@
 # <h1 align="center"> Deploy React + Node application on an AWS EC2 Instance </h1>
 
-<img align="center" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/deploy-react-node-app.png" height="100"> 
+<img align="center" src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/deploy-react-node-app.png" height="500"> 
 
   
 # What will You learn  in this Course?
