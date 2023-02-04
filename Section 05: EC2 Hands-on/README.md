@@ -8,6 +8,7 @@
 sudo chmod 400 ~/.ssh/node-server.pem
 ```
 - 2. Connect to server 
-``` ssh ~/.ssh/node-server.pem ubuntu@ip-adress-of-server
+``` 
+ssh ~/.ssh/node-server.pem ubuntu@ip-adress-of-server
 ```
 
