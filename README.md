@@ -1,8 +1,6 @@
 # <h1 align="center"> Deploy React + Node application on an AWS EC2 Instance </h1>
 
-<p align="center"> Contains all my learning related to DevOps tools and tech.</p>
-
-
+<h2 aligh="center"> src="https://github.com/DipakBodare/udemy-course-images/blob/main/ec2/deploy-react-node-app.png" height="100" <h2>
 
 # What will You learn  in this Course?
 - To create and Setup AWS EC2 instance (Server) 
