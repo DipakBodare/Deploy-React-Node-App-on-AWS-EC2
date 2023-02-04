@@ -48,7 +48,6 @@
 
 
 # Why to purchase this course?
-- Fresher who have a `Basic knowledge of AWS`.
 - Basic Knowledge About `Git`, `Linux`.
 - Developers who want Learn how to deploy the React and Node.js Applicaiton on AWS EC2 instance
 
