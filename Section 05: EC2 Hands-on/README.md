@@ -11,6 +11,3 @@ sudo chmod 400 ~/.ssh/node-server.pem
 ``` ssh ~/.ssh/node-server.pem ubuntu@ip-adress-of-server
 ```
 
-## Connect to EC2 instance using Windows
-
-## Connect to EC2 instance using MacOS
