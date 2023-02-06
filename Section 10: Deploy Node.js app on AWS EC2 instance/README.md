@@ -118,7 +118,7 @@
   vim .env
   ```
 ### Note: Variable for env file is added in `.env.sample` file  
-
+[.env file contents](https://github.com/DipakBodare/node-api-backend/blob/master/.env.sample)
 
 ## Configure Nginx File for React App
 - Create the nginx config file
