@@ -100,8 +100,26 @@
 - Clone the git repo
   ```
   git clone git@github.com:DipakBodare/react-app-frontend.git
+  
   ```  
-	
+## Added `.env` file in `.gitignore`
+- Not Push environment variable file in Online Git repo because all environment variables are in this file.
+- You have to add manually on a server while builing the application manually
+
+## Add the .env On a Server
+- Create the file in application root folder
+  ``` cd  /var/www/domain_name
+      touch .env
+  ```
+  
+- Add the Environment variables in a .env file
+  ```
+  cd /var/www/domain_name
+  vim .env
+  ```
+### Note: Variable for env file is added in `.env.sample` file  
+
+
 ## Configure Nginx File for React App
 - Create the nginx config file
   ```
