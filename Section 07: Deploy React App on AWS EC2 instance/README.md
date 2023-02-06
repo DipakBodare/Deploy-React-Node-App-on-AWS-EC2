@@ -35,6 +35,10 @@
   ```
   localhost
   ```
+## Added `.env` file in `.gitignore`
+- Not Push environment variable file in Online Git repo because all environment variables are in this file.
+- You have to add manually on a server while builing the application manually
+
 ## Deploy the application on EC2 Instance
 - Install the git on EC2 instance
   ```
