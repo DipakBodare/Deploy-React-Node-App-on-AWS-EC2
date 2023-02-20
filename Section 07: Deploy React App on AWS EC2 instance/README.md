@@ -84,7 +84,7 @@
     ```
     server {
 	  listen 80;
-          server_name <font color="red">your_domain_name!</font>;
+          server_name your_domain_name;
 
 		root /var/www/domain_name/react-app-frontend/build;
 		try_files $uri $uri/ /index.html =404;
