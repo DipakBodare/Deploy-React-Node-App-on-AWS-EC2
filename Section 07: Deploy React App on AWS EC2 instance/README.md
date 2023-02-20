@@ -84,7 +84,8 @@
     ```
     server {
 	  listen 80;
-          server_name Your_Domain_Name;
+          server_name <font color="red">your_domain_name!</font>;
+
 		root /var/www/domain_name/react-app-frontend/build;
 		try_files $uri $uri/ /index.html =404;
           client_max_body_size 50M;
